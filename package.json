@@ -1,6 +1,6 @@
 {
-  // "homepage": "https://meet-hb.github.io/Royal-Stay-Home",
-  "name": "royal-home",
+  "homepage": "https://meet-hb.github.io/Royal-Stay-Home",
+  "name": "Royal-Home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "axios": "^1.8.4",
     "bcryptjs": "^3.0.2",
     "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "framer-motion": "^12.6.3",
     "lucide-react": "^0.486.0",
     "react": "^18.3.1",
@@ -32,7 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    // "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -1,6 +1,6 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Navbar from "./navbar/Navbar";
+import Navbar from "./navbar/Navbar";
 import Main from "./Home/Main";
 import { Footer } from "./footer/Footer";
 import ContactUs from "./pages/ContactUs";
@@ -11,6 +11,8 @@ import Settings from "./pages/Settings";
 import Register from "./pages/Ragistration";
 import Login from "./login/Login";
 import Nopagefound from "./Nopagefound";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   return (
