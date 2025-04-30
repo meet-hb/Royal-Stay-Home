@@ -1,0 +1,188 @@
+/* Google font */
+
+
+/* Body setup to center the form */
+
+
+/* Ensure the form is properly centered inside the body */
+
+
+/* Form container */
+form#Login {
+  width: 990px;
+  height: 550px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Left side */
+.left {
+  width: 50%;
+  background-color: #d5b342;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 20px 0 0 20px;
+}
+
+.left p {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.left a {
+  font-size: 14px;
+  color: #fff;
+  margin: 10px 0;
+  text-decoration: underline;
+}
+
+.left input[type="submit"] {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.left input[type="submit"]:hover {
+  background-color: #fff;
+  color: #d5b342;
+}
+
+/* Right side */
+.right {
+  width: 50%;
+  padding: 40px 30px;
+  position: relative;
+}
+
+.right h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Input group */
+.input-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 12px 20px 12px 15px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.input-wrapper input:focus {
+  outline: 2px solid #d5b342;
+}
+
+.input-wrapper span.material-symbols-outlined {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+/* Forgot password */
+.right a {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0 25px 0;
+  text-decoration: none;
+}
+
+.right a:hover {
+  color: #d5b342;
+}
+
+/* Login button */
+.right button {
+  width: 100%;
+  background-color: #d5b342;
+  color: #4e3318;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.right button:hover {
+  background-color: #d5b342;
+}
+
+/* Social login */
+.right p {
+  text-align: center;
+  margin: 25px 0 10px;
+  color: #888;
+}
+
+.right .socials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.right .socials a {
+  width: 48px;
+  height: 48px;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.right .socials a:hover {
+  border-color: #d5b342;
+  color: #d5b342;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  form#Login {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .left, .right {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .left {
+    border-radius: 20px 20px 0 0;
+    padding: 40px 20px;
+  }
+
+  .right {
+    padding: 40px 20px;
+  }
+}
