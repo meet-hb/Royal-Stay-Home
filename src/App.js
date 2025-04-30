@@ -11,8 +11,8 @@ import Settings from "./pages/Settings";
 import Register from "./pages/Ragistration";
 import Login from "./login/Login";
 import Nopagefound from "./Nopagefound";
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
+// import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   return (
